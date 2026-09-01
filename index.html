@@ -257,18 +257,18 @@
   </div>
 
   <script>
-   // let countdown = 5;
-   // const el = document.getElementById("countdown");
-   // const link = "https://nickky247.com/signup";
+    let countdown = 5;
+    const el = document.getElementById("countdown");
+    const link = "https://nickky247.com/signup";
 
-   // function updateTimer() {
-  //    el.innerText = countdown;
+    function updateTimer() {
+      el.innerText = countdown;
       //if (countdown <= 0) {
         clearInterval(timer);
         window.location.href = link;
         return;
       }
-  //    countdown--;
+      countdown--;
     }
 
     updateTimer();
